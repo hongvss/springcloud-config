@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/hongvss/config-repo
+          username: 122744675@qq.com
+          password: 1225046x01261215
+          basedir: G:/projects/workspace/config/basedir
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
